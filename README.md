@@ -1,4 +1,5 @@
 # Test Scripts
+- To run execute `.\cf-python-base\Scripts\Activate.ps1`
 
 ## Exercise 1.1
 - Setup and install python

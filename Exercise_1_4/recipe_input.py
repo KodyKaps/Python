@@ -55,7 +55,7 @@ def main():
         #now store pkl data in lists
         recipes_list.extend(raw_data_from_pkl["recipes_list"])
         ingredients_list.extend(raw_data_from_pkl["ingredients_list"])
-        print("laoded from file successfully")
+        print("loaded from file successfully")
         print("recipes_list", recipes_list)
         print("ingredients_list",ingredients_list)
         print("Now you can add more recipes")
