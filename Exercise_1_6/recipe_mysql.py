@@ -34,15 +34,15 @@ def main():
         tables = cursor.fetchall()
         if(len(tables) > 0):
             print("connected to db")
-        # print("Tables in the database:")
-        # for table in tables:
-        #     print(table[0])
-        # #show there is data in the table
-        # cursor.execute("SELECT * FROM Recipes;")
-        # recipes = cursor.fetchall()
-        # print("rows in the recipes:")
-        # for r in recipes:
-        #     print(r)
+        print("Tables in the database:")
+        for table in tables:
+            print(table[0])
+        #show there is data in the table
+        cursor.execute("SELECT * FROM Recipes;")
+        recipes = cursor.fetchall()
+        print("rows in the recipes:")
+        for r in recipes:
+            print(r)
 
     except mysql.connector.Error as err:
         print(f"Error: {err}")
